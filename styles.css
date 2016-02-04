@@ -99,7 +99,7 @@ input {
 	background-color: white;
 	margin: 10px;
 	position:relative;
-	padding-top: 10px;
+	padding-top:10px;
 }
 
 .uploaded {
@@ -157,6 +157,7 @@ p{
     text-align: right;
     font-size: 19px;
     color: #666;
+
 }
 
 .show-more {
@@ -182,4 +183,9 @@ a {
 
 p {
 	font-size: 12px;
+}
+
+p.social {
+	display: inline-block;
+	margin-left: 10px;
 }
