@@ -153,8 +153,33 @@ p{
 	position: absolute;
     width: 100%;
     bottom: 6px;
-    line-height: 24px;
+    line-height: 60px;
     text-align: right;
     font-size: 19px;
     color: #666;
+}
+
+.show-more {
+	text-align: center;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #767676;
+	margin-bottom: 10px;
+}
+.show-more:hover {
+	color: black;
+}
+
+hr {
+	color: #767676;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+p {
+	font-size: 12px;
 }
