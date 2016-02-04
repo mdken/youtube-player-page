@@ -18,6 +18,27 @@ nav {
 	
 }
 
+.upload-btn {
+	border-color: #d3d3d3;
+    background: #f8f8f8;
+    color: #333;
+	width: 56px;
+    height: 28px;
+    border: solid 1px transparent;
+    padding: 0 10px;
+    outline: 0;
+	font-weight: 500;
+    font-size: 11px;
+
+    white-space: nowrap;
+    word-wrap: normal;
+    line-height: normal;
+  
+    cursor: pointer;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+}
+
 .yt-logo {
 	display:inline-block;
 	height: 40px;
@@ -48,7 +69,7 @@ input {
 #bell{
 	width:30px;
 	display:inline-block;
-	margin-left: 250px;
+	margin-left: 150px;
 }
 
 
@@ -58,6 +79,7 @@ input {
 	background-color:#e8e8e8;
 	height: 100%;
 	margin: 0px;
+	position:relative;
 }
 
 .video-player {
@@ -76,7 +98,7 @@ input {
 	width: 640px;
 	background-color: white;
 	margin: 10px;
-	
+	position:relative;
 	padding-top: 10px;
 }
 
@@ -125,4 +147,14 @@ p{
 	
 	font-weight: normal;
 	color: #222;
+}
+
+#views {
+	position: absolute;
+    width: 100%;
+    bottom: 6px;
+    line-height: 24px;
+    text-align: right;
+    font-size: 19px;
+    color: #666;
 }
